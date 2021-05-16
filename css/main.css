@@ -113,8 +113,8 @@ img {
 .link {
   text-decoration: none;
   color: inherit;
-  -webkit-transition: color 2500ms cubic-bezier(0.4, 0, 0.2, 1), fill 2500ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 2500ms cubic-bezier(0.4, 0, 0.2, 1), fill 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link:focus, .link:hover {
@@ -687,8 +687,8 @@ body.menu__cotainer.is-open {
   height: 44px;
   border-radius: 50%;
   fill: #afb1b8;
-  -webkit-transition: fill 2500ms cubic-bezier(0.4, 0, 0.2, 1), background-color 2500ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: fill 2500ms cubic-bezier(0.4, 0, 0.2, 1), background-color 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team__link:focus, .team__link:hover {
@@ -771,8 +771,8 @@ body.menu__cotainer.is-open {
   border: 1px solid #afb1b8;
   border-radius: 4px;
   fill: #afb1b8;
-  -webkit-transition: fill 2500ms cubic-bezier(0.4, 0, 0.2, 1), border 2500ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: fill 2500ms cubic-bezier(0.4, 0, 0.2, 1), border 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .client__link:focus, .client__link:hover {
@@ -986,10 +986,10 @@ body.menu__cotainer.is-open {
   line-height: 1.6;
   color: #212121;
   background-color: #f5f4fa;
-  -webkit-transition: color 2500ms cubic-bezier(0.4, 0, 0.2, 1), background-color 2500ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 2500ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 2500ms cubic-bezier(0.4, 0, 0.2, 1), background-color 2500ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 2500ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 2500ms cubic-bezier(0.4, 0, 0.2, 1), background-color 2500ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 2500ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 2500ms cubic-bezier(0.4, 0, 0.2, 1), background-color 2500ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 2500ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-primary,
@@ -1088,10 +1088,10 @@ body.menu__cotainer.is-open {
   padding: 63px 24px;
   -webkit-transform: translateY(101%);
           transform: translateY(101%);
-  -webkit-transition: -webkit-transform 2500ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: -webkit-transform 2500ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: transform 2500ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: transform 2500ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   font-size: 18px;
   line-height: 1.56;
   color: #ffffff;
@@ -1131,8 +1131,8 @@ body.menu__cotainer.is-open {
   min-height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
   visibility: visible;
-  -webkit-transition: opacity 2500ms cubic-bezier(0.4, 0, 0.2, 1), visibility 2500ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: opacity 2500ms cubic-bezier(0.4, 0, 0.2, 1), visibility 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
   opacity: 1;
   z-index: 5;
   overflow-y: scroll;
@@ -1184,11 +1184,11 @@ body.menu__cotainer.is-open {
   height: 30px;
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  -webkit-transition: fill 2500ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: fill 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   background-color: #ffffff;
   fill: #000000;
-  transition: fill 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal__res:focus, .modal__res:hover {
@@ -1226,8 +1226,8 @@ body.menu__cotainer.is-open {
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-  -webkit-transition: border 2500ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: border 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
 }
 
@@ -1247,8 +1247,8 @@ body.menu__cotainer.is-open {
   margin-left: 15px;
   -webkit-transform: translateY(50%);
           transform: translateY(50%);
-  -webkit-transition: fill 2500ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: fill 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal__text {
@@ -1318,8 +1318,8 @@ body.menu__cotainer.is-open {
   height: 15px;
   border: 2px solid #212121;
   border-radius: 2px;
-  -webkit-transition: border-color 2500ms cubic-bezier(0.4, 0, 0.2, 1), background-color 2500ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: border-color 2500ms cubic-bezier(0.4, 0, 0.2, 1), background-color 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .checkbox:checked + .modal__checkbox {
@@ -1334,8 +1334,8 @@ body.menu__cotainer.is-open {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  -webkit-transition: background-color 2500ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: background-color 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal__btn:hover {
