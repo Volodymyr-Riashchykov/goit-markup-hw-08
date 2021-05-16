@@ -1,0 +1,58 @@
+@media screen and (max-width: $desktop - 1px) {
+  .lessons {
+    display: none;
+  }
+}
+.position {
+  position: relative;
+  &:not(:first-child) {
+    margin-left: 30px;
+  }
+}
+.lessons__tumb {
+  @extend %flex;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 370px;
+  height: 70px;
+  background-color: $tumb-color;
+}
+.lessons__heiding {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+
+  color: $primary-color;
+}
+.portfolio,
+.features,
+.client,
+.team {
+  @include pad(60px, 60px);
+
+  @media screen and (min-width: $desktop) {
+    @include pad(94px, 94px);
+  }
+}
+.lessons {
+  padding-bottom: 60px;
+
+  @media screen and (min-width: $desktop) {
+    padding-bottom: 94px;
+  }
+}
+.text {
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.17;
+  text-align: center;
+  color: $title-text-color;
+
+  @media screen and (min-width: $desktop) {
+    margin-bottom: 50px;
+    font-size: 36px;
+  }
+}
