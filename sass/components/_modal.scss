@@ -120,27 +120,31 @@
   color: rgba(117, 117, 117, 0.5);
 }
 .modal__agree {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
+  // position: relative;
 }
 .modal__lab {
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
+  // flex-wrap: wrap;
   font-size: 12px;
   line-height: 1.17;
-  // letter-spacing: 0.01em;
+  letter-spacing: 0.03em;
   color: #757575;
 }
 .checkbox {
-  position: absolute;
+  // position: absolute;
+  // top: 50%;
+  // left: 0;
+  // transform: translateX(50%);
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
 }
 .modal__checkbox {
   display: inline-flex;
-  margin-right: 6px;
-  width: 16px;
+  margin-right: 8px;
+  min-width: 16px;
   height: 15px;
   border: 2px solid $title-text-color;
   border-radius: 2px;
@@ -166,7 +170,7 @@
   }
 }
 .modal__contract {
-  margin-left: 2px;
+  // margin-left: 2px;
   color: $accent-text-color;
 }
 @media screen and (min-width: $tablet) {

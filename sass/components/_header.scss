@@ -161,9 +161,11 @@ body.menu__cotainer.is-open {
       // color: #2196f3;
     }
     .header__mail {
-      // font-size: 12px;
-      // line-height: 1.16;
       margin-bottom: 10px;
+      padding-top: 21px;
+    }
+    .header__tel {
+      padding-bottom: 21px;
     }
     .header__menu {
       flex-direction: column;
@@ -203,9 +205,13 @@ body.menu__cotainer.is-open {
       margin-left: 30px;
     }
     .header__mail {
+      padding-top: 0;
       font-size: 14px;
       line-height: 1.17;
       margin-bottom: 0;
+    }
+    .header__tel {
+      padding-bottom: 0;
     }
     .header__menu {
       flex-direction: row;

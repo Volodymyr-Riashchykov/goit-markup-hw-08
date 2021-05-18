@@ -455,6 +455,7 @@
       <!-- Модальное окно -->
       <section class="backdrop is-hidden" data-modal>
         <div class="modal">
+          <h2 class="visually-hidden">Modal</h2>
           <!-- <div class="modal__conteiner"> -->
           <p class="modal__heiding">Оставьте свои данные, мы вам перезвоним</p>
           <button class="modal__res" data-modal-close>
@@ -500,9 +501,8 @@
             <label class="modal__lab" for="agree">
               <input class="checkbox" type="checkbox" name="agree" id="agree" />
               <span class="modal__checkbox"></span>
-              Соглашаюсь с рассылкой и принимаю
-              <a class="modal__contract" href="">Условия договора</a></label
-            >
+              <div>Соглашаюсь с рассылкой и принимаю <a class="modal__contract" href="">Условия договора</a></div>
+            </label>
           </div>
           <!-- <div class="modal__submit"> -->
           <button class="modal__btn" type="submit">Отправить</button>
