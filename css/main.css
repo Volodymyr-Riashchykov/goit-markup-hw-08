@@ -12,7 +12,6 @@
 }
 
 .hero {
-  max-width: 478px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -329,6 +328,10 @@ body.menu__cotainer.is-open {
   }
   .menu__cotainer .header__mail {
     margin-bottom: 10px;
+    padding-top: 21px;
+  }
+  .menu__cotainer .header__tel {
+    padding-bottom: 21px;
   }
   .menu__cotainer .header__menu {
     -webkit-box-orient: vertical;
@@ -377,9 +380,13 @@ body.menu__cotainer.is-open {
     margin-left: 30px;
   }
   .menu__cotainer .header__mail {
+    padding-top: 0;
     font-size: 14px;
     line-height: 1.17;
     margin-bottom: 0;
+  }
+  .menu__cotainer .header__tel {
+    padding-bottom: 0;
   }
   .menu__cotainer .header__menu {
     -webkit-box-orient: horizontal;
@@ -460,7 +467,6 @@ body.menu__cotainer.is-open {
 
 @media screen and (min-width: 768px) {
   .hero {
-    max-width: 768px;
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(..//../images/hw/hero/tabl-img.jpg);
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(..//../images/hw/hero/tabl-img.jpg);
   }
@@ -1285,7 +1291,7 @@ body.menu__cotainer.is-open {
 }
 
 .modal__agree {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .modal__lab {
@@ -1295,15 +1301,13 @@ body.menu__cotainer.is-open {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   font-size: 12px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
   color: #757575;
 }
 
 .checkbox {
-  position: absolute;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -1313,8 +1317,8 @@ body.menu__cotainer.is-open {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  margin-right: 6px;
-  width: 16px;
+  margin-right: 8px;
+  min-width: 16px;
   height: 15px;
   border: 2px solid #212121;
   border-radius: 2px;
@@ -1343,7 +1347,6 @@ body.menu__cotainer.is-open {
 }
 
 .modal__contract {
-  margin-left: 2px;
   color: #2196f3;
 }
 
