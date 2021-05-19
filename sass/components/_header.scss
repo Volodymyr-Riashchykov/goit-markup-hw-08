@@ -40,6 +40,11 @@
   font-size: 24px;
   line-height: 1.17;
   color: $secondary-color;
+
+  @media screen and (min-width: $desktop) {
+    font-size: 26px;
+    line-height: 1.19;
+  }
 }
 .header__nav {
   // margin: 0 0 0 93px;
@@ -68,6 +73,7 @@
 .header__menu {
   display: flex;
   list-style-type: none;
+  font-weight: 500;
 }
 body.menu__cotainer.is-open {
   overflow: hidden;
@@ -117,6 +123,9 @@ body.menu__cotainer.is-open {
     }
     .header__icon {
       display: none;
+    }
+    .net {
+      font-weight: 500;
     }
   }
   @media screen and (min-width: $tablet) {
@@ -194,6 +203,7 @@ body.menu__cotainer.is-open {
     width: 100%;
     .header__studio {
       font-size: 26px;
+      line-height: 1.19;
     }
     .header__nav {
       margin: 0 0 0 93px;

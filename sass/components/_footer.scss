@@ -100,8 +100,12 @@
   .footer__block {
     width: 270px;
   }
+  .footer__block:not(:first-child) {
+    margin-top: 0px;
+  }
   .footer__block:last-child {
     width: auto;
+    margin-top: 60px;
   }
 }
 
@@ -118,6 +122,10 @@
   }
   .footer__block:not(:first-child) {
     margin-left: 30px;
+    margin-top: 0;
+  }
+  .footer__address {
+    margin-top: 20px;
   }
   .footer__list {
     justify-content: start;
