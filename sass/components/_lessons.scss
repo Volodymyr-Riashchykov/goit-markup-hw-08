@@ -30,8 +30,10 @@
 .features,
 .client,
 .team {
-  @include pad(60px, 60px);
-
+  @include pad(40px, 40px);
+  @media screen and (min-width: $mobile) {
+    @include pad(60px, 60px);
+  }
   @media screen and (min-width: $desktop) {
     @include pad(94px, 94px);
   }
