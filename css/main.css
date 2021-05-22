@@ -481,11 +481,17 @@ body.menu__cotainer.is-open {
 .hero__heading {
   margin: 0;
   font-weight: 900;
-  font-size: 26px;
+  font-size: 5.5vw;
   line-height: 1.6;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
+}
+
+@media screen and (min-width: 480px) {
+  .hero__heading {
+    font-size: 26px;
+  }
 }
 
 .hero {
@@ -654,8 +660,8 @@ body.menu__cotainer.is-open {
 .features,
 .client,
 .team {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 @media screen and (min-width: 480px) {
